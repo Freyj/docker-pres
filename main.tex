@@ -1,0 +1,123 @@
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{changepage}
+\usepackage{textcomp}
+\usepackage{hyperref}
+\usepackage[frenchb]{babel}
+
+% There are many different themes available for Beamer. A comprehensive
+% list with examples is given here:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+% You can uncomment the themes below if you would like to use a different
+% one:
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{boxes}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{default}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+\beamertemplatenavigationsymbolsempty
+
+\setbeamerfont{page number in foot}{size=\large}
+\setbeamertemplate{footline}[frame number]
+
+\title{Introduction à Docker}
+
+\subtitle{DevLab Apside}
+
+\date{7 février 2019}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\titlegraphic{\includegraphics[height=4cm]{img/docker.png}}
+
+% Let's get started
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Sommaire}
+\tableofcontents
+\end{frame}
+
+\begin{section}{Docker, c'est quoi ?}
+\input{docker.tex}
+\end{section}
+
+\begin{section}{DockerHub}
+\input{dockerhub.tex}
+\end{section}
+
+\begin{section}{Mise en place et Utilisation}
+
+\end{section}
+\begin{section}{Limites}
+
+\end{section}
+\begin{section}{Problèmes courants}
+
+\end{section}
+\begin{section}{Exemples de Dockerfile}
+
+\end{section}
+
+\begin{section}{Pour aller plus loin}
+
+
+
+\end{section}
+
+\begin{frame}{Merci !}
+    Merci de votre attention, si vous avez des questions, n'hésitez pas.
+    
+    Ces slides sont disponibles sur \href{https://github.com/freyj/}{https://github.com/freyj/docker-intro} 
+    avec un exemple de DockerFile.
+\end{frame}
+
+\input{sources.tex}
+
+
+
+\end{document}
+
+
