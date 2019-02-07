@@ -25,29 +25,30 @@
   \titlepage
 \end{frame}
 
-\begin{frame}{Sommaire}
-\tableofcontents
+\begin{frame}[noframenumbering]{Sommaire}
+    \tableofcontents
 \end{frame}
 
 \begin{section}{Docker, c'est quoi ?}
-\input{slides/docker.tex}
+    \input{slides/docker.tex}
 \end{section}
+
 
 \begin{section}{DockerHub}
-\input{slides/dockerhub.tex}
+    \input{slides/dockerhub.tex}
 \end{section}
 
-\begin{section}{Mise en place et Utilisation}
 
+\begin{section}{Mise en place et utilisation}
+    \input{slides/mep.tex}
 \end{section}
-\begin{section}{Limites}
 
+\begin{section}{Orchestration}
+    \input{slides/orch.tex}
 \end{section}
-\begin{section}{Problèmes courants}
 
-\end{section}
-\begin{section}{Exemples de Dockerfile}
-
+\begin{section}{Démo}
+    \input{slides/demo.tex}
 \end{section}
 
 \begin{section}{Pour aller plus loin}
@@ -56,25 +57,9 @@
 
 \end{section}
 
-\begin{frame}{Merci !}
-    Merci de votre attention, si vous avez des questions, n'hésitez pas.
-    
-    Ces slides sont disponibles sur \href{https://github.com/freyj/}{https://github.com/freyj/docker-intro} 
-    avec un exemple de DockerFile ainsi que les sources qui ont servi à cette présentation.
-    
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-            \includegraphics[height=3cm]{img/biere.jpg}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \includegraphics[height=3cm]{img/pizza.jpg}
-        \end{column}
-    \end{columns}
-\end{frame}
+\input{slides/thanks.tex}
 
 \input{slides/sources.tex}
-
-
 
 \end{document}
 
